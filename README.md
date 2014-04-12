@@ -1,5 +1,5 @@
 # Namecoin JSON-RPC Spec
-This is a JSON specification of the Namecoin JSON-RPC API which conforms to the [Service Mapping Description](https://en.wikipedia.org/wiki/Service_Mapping_Description) (SMD) format.
+This is a specification of the Namecoin JSON-RPC API which conforms to the [Service Mapping Description](https://en.wikipedia.org/wiki/Service_Mapping_Description) (SMD) format, a JSON-based API specification.
 
 The service URL defaults to `localhost:8336`.  The spec itself is incomplete and contributions are greatly appreciated.
 
