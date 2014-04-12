@@ -1,0 +1,80 @@
+{"target"     : "localhost:8336",
+  "transport" : "POST",
+  "envelope"  : "JSON-RPC-1.2",
+  "SMDVersion": "2.0",
+  "services"  : {
+    "getblockcount"  : {
+      "returns": {
+        "type": "number"
+      }
+    },
+    "getinfo"  : {
+      "returns": {
+        "type": "Object"
+      }
+    },
+    "name_filter": {
+      "parameters": [
+        {
+          "name": "regexp",
+          "type": "string"
+        },
+        {
+          "name": "maxage",
+          "type": "number",
+          "optional":true,
+          "default":36000
+        },
+        {
+          "name": "from",
+          "type": "number",
+          "optional":true,
+          "default":0
+        },
+        {
+          "name": "nb",
+          "type": "number",
+          "optional":true,
+          "default":0
+        },
+        {
+          "name": "stat",
+          "type": "string",
+          "optional":true,
+          "default":""
+        }
+      ],
+      "returns"   : {
+        "type": "Object"
+      }
+    },
+    "name_scan": {
+      "parameters": [
+        {
+          "name": "start-name",
+          "type": "string"
+        },
+        {
+          "name": "max-returned",
+          "type": "number",
+          "optional":true,
+          "default":500
+        }
+      ],
+      "returns"   : {
+        "type": "Object"
+      }
+    },
+    "name_show": {
+      "parameters": [
+        {
+          "name": "name",
+          "type": "string"
+        }
+      ],
+      "returns"   : {
+        "type": "Object"
+      }
+    }
+  }
+}
