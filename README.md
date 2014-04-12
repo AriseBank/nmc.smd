@@ -1,5 +1,5 @@
-# Namecoin JSON-RPC Service Mapping Description
-This is an [SMD](https://en.wikipedia.org/wiki/Service_Mapping_Description) (a JSON specification) of the Namecoin JSON-RPC API.  It is incomplete, and contributions are strongly encouraged.
+# Namecoin JSON-RPC Spec
+This is a JSON specification for Namecoin JSON-RPC API which conforms to the [Service Mapping Description](https://en.wikipedia.org/wiki/Service_Mapping_Description) (SMD) format.  It is incomplete, and contributions are strongly encouraged.
 
 ##Complete
 * name_show
