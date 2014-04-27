@@ -1,4 +1,4 @@
-{"target"     : "localhost:8336",
+{"target"     : "http://user:pass@localhost:8336",
   "transport" : "POST",
   "envelope"  : "JSON-RPC-1.2",
   "SMDVersion": "2.0",
